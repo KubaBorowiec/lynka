@@ -14,64 +14,86 @@
     padding-top:0;
 }
 .modal-dialog{
-    .table-wrapper{
-       margin:25px 0;   
-    }
-    table{
-        td, th{
-            border:1px solid 	#A9A9A9 !important;
-            vertical-align: middle !important;
-            white-space: initial !important;;
+        .table-wrapper{
+           margin:25px 0;   
         }
-        .none{
-            border:none !important;
-        }
-        .main{
-                text-transform: uppercase;
-                font-size:23px;
+        table{
+            td, th{
+                border:1px solid 	#A9A9A9 !important;
+                vertical-align: middle !important;
+                white-space: initial !important;;
+            }
+            .none{
+                border:none !important;
+            }
+            .main{
+                    text-transform: uppercase;
+                    font-size:23px;
+            }   
+            .title{
+                border-left:none !important;
+            }
+            .toPay{
+                background-color:#e5e5e5;
+                font-size:20px;
+            }
+            .black{
+                background-color:#000;
+                color:#fff;
+                text-align:center
+            }
+            .infos td{
+                 max-width:30%;
+            }
         }   
-        .title{
-            border-left:none !important;
+        .group-product{
+                margin:20px 0;
+                border-bottom:1px solid #d0d0d0;
         }
-        .toPay{
-            background-color:#e5e5e5;
-            font-size:20px;
-        }
-        .black{
-            background-color:#000;
-            color:#fff;
-            text-align:center
-        }
-        .infos td{
-             max-width:30%;
-        }
-    }       
-    
-     .checkbox{
+        .checkbox{
                 width:20px;
                 height:20px;
                 display:inline-block;
-                margin-right:5px;
-               
+                margin-right:5px;}
+        input[type=radio]{
+            width:20px;
+            height:20px;
+            vertical-align:text-bottom;
+        }
+        input[type=radio]+input[type=radio]{
+            margin-left:20px;
+        }
+        .number-value{
+            max-width:106px;
+            text-align:center;
+               padding: 5px 10px;}
+        label{
+                max-width:114px;
+                padding: 3px;
+                font-weight: 300;
+                font-size:15px;
+         }
+         .label-deco{
+             max-width:150px;
+         }
+         .label-big{
+             font-size:18px;
+         }
      }
-     label{
-         max-width:270px;
-     }
-}
-
-.modal-header .close{
-    margin-top:-9px;
-    font-size:38px;
-    color:#606060;
-    opacity:1.0;
-}
-.modal-footer{
-    .button-shop{
-        width:240px;
-        font-size:20px;
+ 
+    .modal-header .close{
+        margin-top:-9px;
+        font-size:38px;
+        color:#606060;
+        opacity:1.0;
     }
-    text-align:center;
-}
+    .modal-footer{
+        .button-shop{
+            width:240px;
+            font-size:20px;
+        }
+        text-align:center;
+    }
 @media (min-width:768px){
     .modal-dialog{
             width:700px;
@@ -101,10 +123,19 @@
                 font-size: 16px;
         }
         label{
-         max-width:100%;
+             max-width:100%;
+             font-size:17px;
+             margin:0 20px;
         }
+        .label-big{
+           font-size:24px;
+        }
+         .label-deco{
+             max-width:100%;
+         }
         .checkbox{
-                vertical-align: middle;
+            vertical-align: initial;
+            
         }
     }  
 }

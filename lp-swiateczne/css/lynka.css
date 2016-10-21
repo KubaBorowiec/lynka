@@ -15,6 +15,10 @@ h5 {
 a, a:hover, a:visited, a:active {
   text-decoration: none; }
 
+.btn-primary:hover {
+  background-color: #a90509;
+  background-color: #a90509; }
+
 .green {
   color: #007116; }
 
@@ -175,13 +179,33 @@ a, a:hover, a:visited, a:active {
   text-align: center; }
 .modal-dialog table .infos td {
   max-width: 30%; }
+.modal-dialog .group-product {
+  margin: 20px 0;
+  border-bottom: 1px solid #d0d0d0; }
 .modal-dialog .checkbox {
   width: 20px;
   height: 20px;
   display: inline-block;
   margin-right: 5px; }
+.modal-dialog input[type=radio] {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom; }
+.modal-dialog input[type=radio] + input[type=radio] {
+  margin-left: 20px; }
+.modal-dialog .number-value {
+  max-width: 106px;
+  text-align: center;
+  padding: 5px 10px; }
 .modal-dialog label {
-  max-width: 270px; }
+  max-width: 114px;
+  padding: 3px;
+  font-weight: 300;
+  font-size: 15px; }
+.modal-dialog .label-deco {
+  max-width: 150px; }
+.modal-dialog .label-big {
+  font-size: 18px; }
 
 .modal-header .close {
   margin-top: -9px;
@@ -215,9 +239,15 @@ a, a:hover, a:visited, a:active {
     .modal-dialog table {
       font-size: 16px; }
     .modal-dialog label {
+      max-width: 100%;
+      font-size: 17px;
+      margin: 0 20px; }
+    .modal-dialog .label-big {
+      font-size: 24px; }
+    .modal-dialog .label-deco {
       max-width: 100%; }
     .modal-dialog .checkbox {
-      vertical-align: middle; } }
+      vertical-align: initial; } }
 @media (min-width: 768px) {
   .section-first img {
     max-height: 200px; }
