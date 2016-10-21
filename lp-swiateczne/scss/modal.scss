@@ -1,0 +1,110 @@
+.modal-header{
+    text-align:center;
+    color:#606060;
+    .modal-subtitle{
+        color:#000;
+        font-weight:bold;
+        font-size:30px;
+        margin-bottom: 0;
+    }
+    border:none;
+}
+
+.modal-body{
+    padding-top:0;
+}
+.modal-dialog{
+    .table-wrapper{
+       margin:25px 0;   
+    }
+    table{
+        td, th{
+            border:1px solid 	#A9A9A9 !important;
+            vertical-align: middle !important;
+            white-space: initial !important;;
+        }
+        .none{
+            border:none !important;
+        }
+        .main{
+                text-transform: uppercase;
+                font-size:23px;
+        }   
+        .title{
+            border-left:none !important;
+        }
+        .toPay{
+            background-color:#e5e5e5;
+            font-size:20px;
+        }
+        .black{
+            background-color:#000;
+            color:#fff;
+            text-align:center
+        }
+        .infos td{
+             max-width:30%;
+        }
+    }       
+    
+     .checkbox{
+                width:20px;
+                height:20px;
+                display:inline-block;
+                margin-right:5px;
+               
+     }
+     label{
+         max-width:270px;
+     }
+}
+
+.modal-header .close{
+    margin-top:-9px;
+    font-size:38px;
+    color:#606060;
+    opacity:1.0;
+}
+.modal-footer{
+    .button-shop{
+        width:240px;
+        font-size:20px;
+    }
+    text-align:center;
+}
+@media (min-width:768px){
+    .modal-dialog{
+            width:700px;
+            table{
+                .main{
+                    width:40%;
+                }
+                .title{
+                    padding:20px 0 20px 20px;
+                }
+            }
+    } 
+}
+@media (min-width:992px){
+    .modal-dialog{
+        h5{
+            font-size:24px;
+        }
+    }
+    .modal-content{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .modal-dialog{
+        width:900px;
+        table{
+                font-size: 16px;
+        }
+        label{
+         max-width:100%;
+        }
+        .checkbox{
+                vertical-align: middle;
+        }
+    }  
+}
