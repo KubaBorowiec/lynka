@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/lynka.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <title>Promo Express</title>
+        <script>
+            $(document).ready(function() {
+                var owl = $("#owl-slider");
+                owl.owlCarousel({
+                    items : 4,
+                    autoPlay:2000,
+                    loop:true,
+                    pagination:false,
+                    itemsDesktop : [1199,3],
+                    itemsDesktopSmall : [979,3]              
+                });
+                $(".next").click(function(){
+                   owl.trigger('owl.next');
+                 })
+                 $(".prev").click(function(){
+                   owl.trigger('owl.prev');
+                 })      
+              });
+        </script>
+    </head>
+    <body class="lynk">
+        <section class="section-first">
+            <div class="container">
+                <div class="col-xs-12 logo"><a href="https://promoexpress.pl/"><img src="images/logo.jpg" alt="Promo express" /></a></div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 offset-md-1 offset-lg-2"><img src="images/bag-1.png" alt="Torba"/></div>
+                    <div class="col-xs-12 col-md-7 col-lg-6">
+                        <h2>Zrób zakupy w sklepie Promoexpress.pl</h2>
+                        <p class="fp">za min. 500 zł, a otrzymasz torbę na zakupy <strong>GRATIS!</strong></p>
+                        <div class="button-shop"><a href="https://promoexpress.pl/" class="button-shop">Przejdź do sklepu</a><img src="images/arrow-red.png" alt="Strzałka"/></div>
+                        <p class="sp">Promocja trwa do dnia 23.12.2016 i skierowana jest do firm
+                            oraz jednoosobowych działalności gospodarczych.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="second-header col-xs-12 col-md-6">
+                        <h3>Opis / specyfikacja torby</h3>
+                        <p class="subtitle">Poręczna torba na zakupy wykonana z płóciennej bawełny w kolorze Natural.</p>
+                        <p class="desc">Długość uszu (58 cm) pozwala na noszenie jej także na ramieniu.<br>
+                               Pojemna i estetyczna. Wymiary: 39x42x13 cm, gramatura 270g/m².</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6"><img src="images/bag-2.png" alt="Torba" /></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-second">
+            <div class="container">
+                <div class="col-xs-12 col-md-6 col-lg-7 pull-right">
+                    <h3>Opis sklepu Promoexpress.pl</h3>
+                    <p class="subtitle">Promoexpress to sklep oferujący wysokiej jakości materiały promocyjne: firmową odzież oraz gadżety. </p>
+                    <p class="desc">O jakości naszych zdobień świadczyć może zdobycie ponad 40. międzynarodowych nagród.<strong> Nasz wykwalifikowany zespół pracuje w oparciu 
+                            o nowoczesne sprzęty i technologie, pozwalające na szybką i profesjonalną realizację powierzonych zadań.</strong> Naszym Klientom oferujemy 
+                        indywidualne podejście oraz kompleksową obsługę, w skład której wchodzi także dystrybucja zamówionych produktów. Za sprawą bogatego, 
+                        ponad 20-letniego doświadczenia posiadamy wiedzę, dzięki której pomagamy Klientom w znalezieniu 
+                        optymalnych rozwiązań promocyjnych, niezależnie od branży.</p>
+                </div>
+                <div class="col-xs-12 responsive-none">
+                   <img src="images/laptop-1.jpg" alt="Laptop" />
+                </div>
+            </div>
+        </section>
+        <section class="section-third">
+            <div class="container">
+                <h3>Sprawdź najpopularniejsze produkty
+                        w sklepie Promoexpress.pl</h3>
+                <div class="slider-owl clearfix">
+                    <div class="prev arrow">&nbsp;</div>
+                    <div id="owl-slider" class="owl-carousel owl-theme">
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,koszulka-exact-150,TBC.TU002.html" target="_blank"><img src="images/slider/1.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,koszulka-valueweight,TFL.61-036-0.html" target="_blank"><img src="images/slider/2.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,koszulka-exact-190,TBC.TU004.html" target="_blank"><img src="images/slider/3.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,dziecieca-koszulka-valueweight-t,TFL.61-033-0.html" target="_blank"><img src="images/slider/4.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,koszulka-polo-id001,TBC.PUI10.html" target="_blank"><img src="images/slider/5.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,koszulka-polo-safran,TBC.PU409.html" target="_blank"><img src="images/slider/6.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,kurtka-softshellowa-id701,TBC.JUI62.html" target="_blank"><img src="images/slider/7.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,damski-softshel-id701,TBC.JWI63.html" target="_blank"><img src="images/slider/8.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,rozpinana-bluza-polarowa-id501,TBC.FUI50.html" target="_blank"><img src="images/slider/9.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,damski-polar-id501,TBC.FWI51.html" target="_blank"><img src="images/slider/10.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,wiatrowka-sirocco,TBC.JU800.html" target="_blank"><img src="images/slider/11.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,czapka-zimowa-fair-isle-snowstar,GBE.B456.html" target="_blank"><img src="images/slider/12.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,koszulka-sofspun,TFL.61-412-0.html" target="_blank"><img src="images/slider/13.jpg" alt="Chania"></a></div>
+                        <div class="item"><a href="https://promoexpress.pl/odziez/product,kurtka-snow-bird-padded-jacket,TRE.R194M.html" target="_blank"><img src="images/slider/14.jpg" alt="Chania"></a></div>
+                    </div>
+                    <div class="next arrow">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="button-shop">
+                    <a href="https://promoexpress.pl/">Przejdź do sklepu</a><img src="images/arrow-red.png" alt="Strzałka"/>
+                </div>
+        </section>
+        <!-- Kod tagu remarketingowego Google -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 941769227;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/941769227/?guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+    </body>
+</html>
+
+
