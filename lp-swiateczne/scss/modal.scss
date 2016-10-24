@@ -4,7 +4,7 @@
     .modal-subtitle{
         color:#000;
         font-weight:bold;
-        font-size:30px;
+        font-size:23px;
         margin-bottom: 0;
     }
     border:none;
@@ -14,6 +14,9 @@
     padding-top:0;
 }
 .modal-dialog{
+    h3{
+        font-size:23px;
+    }
         .table-wrapper{
            margin:25px 0;   
         }
@@ -80,6 +83,7 @@
              font-size:18px;
          }
      }
+
  
     .modal-header .close{
         margin-top:-9px;
@@ -88,12 +92,28 @@
         opacity:1.0;
     }
     .modal-footer{
-        .button-shop{
+   
+        .button-shop,.button-back{
             width:240px;
             font-size:20px;
+            margin:20px;
         }
         text-align:center;
     }
+    .modal-step-2{
+             input{
+                 width:80%;
+                 padding:9px 10px;
+             }
+             .label-box{
+                 text-align:center;
+             }
+             .modal-dialog label{
+                 max-width:90%;
+                 margin-left:0;
+             }
+     }
+     
 @media (min-width:768px){
     .modal-dialog{
             width:700px;
@@ -106,6 +126,31 @@
                 }
             }
     } 
+
+    .modal-step-2{
+         .modal-header  .modal-subtitle, h3{
+                font-size:27px;
+                text-align:left;
+            }
+             input{
+                 padding:9px 10px;
+                 margin-right:0;
+             }
+             .label-box{
+                 text-align:right;
+                 padding:4px 0;
+                 label{
+                       margin-right:0;
+                       font-size:21px;
+                   }
+             }
+            
+             .input-box{
+                 text-align:left;
+                 margin-bottom: 14px;
+             }
+           
+     }
 }
 @media (min-width:992px){
     .modal-dialog{
@@ -134,7 +179,7 @@
              max-width:100%;
          }
         .checkbox{
-            vertical-align: initial;
+            vertical-align: text-bottom;
             
         }
     }  

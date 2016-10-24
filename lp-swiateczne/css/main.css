@@ -44,6 +44,16 @@ a, a:hover, a:visited, a:active {
   border-radius: 2px;
   display: inline-block; }
 
+.button-back {
+  padding: 12px 35px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #b8b8b8;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 2px;
+  display: inline-block; }
+
 .button-shop:hover, .button-shop:active {
   background-color: #a90509;
   color: #fff; }

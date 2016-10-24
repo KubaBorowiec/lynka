@@ -5,12 +5,14 @@
   .modal-header .modal-subtitle {
     color: #000;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 23px;
     margin-bottom: 0; }
 
 .modal-body {
   padding-top: 0; }
 
+.modal-dialog h3 {
+  font-size: 23px; }
 .modal-dialog .table-wrapper {
   margin: 25px 0; }
 .modal-dialog table td, .modal-dialog table th {
@@ -69,9 +71,19 @@
 
 .modal-footer {
   text-align: center; }
-  .modal-footer .button-shop {
+  .modal-footer .button-shop, .modal-footer .button-back {
     width: 240px;
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 20px; }
+
+.modal-step-2 input {
+  width: 80%;
+  padding: 9px 10px; }
+.modal-step-2 .label-box {
+  text-align: center; }
+.modal-step-2 .modal-dialog label {
+  max-width: 90%;
+  margin-left: 0; }
 
 @media (min-width: 768px) {
   .modal-dialog {
@@ -79,7 +91,23 @@
     .modal-dialog table .main {
       width: 40%; }
     .modal-dialog table .title {
-      padding: 20px 0 20px 20px; } }
+      padding: 20px 0 20px 20px; }
+
+  .modal-step-2 .modal-header .modal-subtitle, .modal-step-2 h3 {
+    font-size: 27px;
+    text-align: left; }
+  .modal-step-2 input {
+    padding: 9px 10px;
+    margin-right: 0; }
+  .modal-step-2 .label-box {
+    text-align: right;
+    padding: 4px 0; }
+    .modal-step-2 .label-box label {
+      margin-right: 0;
+      font-size: 21px; }
+  .modal-step-2 .input-box {
+    text-align: left;
+    margin-bottom: 14px; } }
 @media (min-width: 992px) {
   .modal-dialog h5 {
     font-size: 24px; }
@@ -101,6 +129,6 @@
     .modal-dialog .label-deco {
       max-width: 100%; }
     .modal-dialog .checkbox {
-      vertical-align: initial; } }
+      vertical-align: text-bottom; } }
 
 /*# sourceMappingURL=modal.css.map */
