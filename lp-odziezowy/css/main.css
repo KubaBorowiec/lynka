@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000; }
+
+h2, h3 {
+  font-weight: 900;
+  font-size: 43px; }
+
+h5 {
+  font-size: 21px; }
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none; }
+
+.btn-primary:hover {
+  background-color: #a90509;
+  background-color: #a90509; }
+
+.blue {
+  color: #0187b8; }
+
+.red {
+  color: #e5001b; }
+
+.small {
+  font-size: 16px; }
+
+.medium-sm {
+  font-size: 21px; }
+
+.medium-lg {
+  font-size: 24px; }
+
+.button-shop {
+  padding: 12px 35px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #db0006;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 2px;
+  display: inline-block; }
+
+.button-back {
+  padding: 12px 35px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #b8b8b8;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 2px;
+  display: inline-block; }
+
+.button-shop:hover, .button-shop:active {
+  background-color: #a90509;
+  color: #fff; }
+
+.button-top {
+  font-size: 16px;
+  padding: 12px 43px 12px 17px;
+  display: inline-block;
+  color: #000;
+  background: url("../images/arrow-top.png") right center no-repeat; }
+
+.button-top:active, .button-top:hover {
+  color: #0187b8; }
+
+.product {
+  text-align: center;
+  padding-top: 50px; }
+  .product h3 {
+    font-size: 43px; }
+  .product .links {
+    position: relative; }
+    .product .links a {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      left: 0; }
+    .product .links a + a {
+      top: 0;
+      left: 50%; }
+  .product img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; }
+  .product .sutitle::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 1px;
+    margin: 20px auto;
+    border-bottom: 1px solid #000; }
+  .product .description-red {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #db0006;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    top: -26px; }
+  .product .photo {
+    position: relative;
+    margin-bottom: -20px;
+    text-align: center; }
+  .product .price-box {
+    width: 133px;
+    height: 133px;
+    border-radius: 90px;
+    background-color: #e5001b;
+    margin: 0 auto;
+    top: -40px;
+    position: relative;
+    padding: 40px 0; }
+  .product .price {
+    font-size: 27px;
+    text-align: center;
+    color: #fff; }
+  .product .price-netto {
+    font-size: 16px;
+    display: block; }
+
+.section-first {
+  text-align: center;
+  background: url("../images/section-first-1.jpg") top center no-repeat; }
+  .section-first img {
+    max-width: 100%; }
+  .section-first .arrow-red-first {
+    display: none; }
+  .section-first .green-top {
+    height: 70px;
+    position: relative;
+    z-index: 1;
+    background: url("../images/green-top.png") no-repeat;
+    background-size: cover; }
+    .section-first .green-top img {
+      display: none; }
+  .section-first .info {
+    color: #fff;
+    padding: 20px 20px 20px 60px;
+    max-width: 440px;
+    border-radius: 5px;
+    background: url("../images/info-bg1.png") 6px center no-repeat #0187b8;
+    display: inline-block; }
+  .section-first .info-1 {
+    color: #606060;
+    padding: 20px 20px 20px 45px;
+    background: url("../images/info-bg.png") left center no-repeat; }
+  .section-first .info-2 {
+    font-family: 'Amatic';
+    padding: 20px 20px 20px 70px;
+    background: url("../images/arrow-red.png") left center no-repeat;
+    display: inline-block; }
+  .section-first .product-lines {
+    padding-bottom: 30px; }
+
+.section-product-1 {
+  background: url("../images/section-product-1.jpg");
+  background-size: cover; }
+
+.section-product-2 {
+  background: url("../images/section-product-2.jpg"); }
+
+.section-product-3 {
+  background-color: #ececec; }
+
+.section-product-4 {
+  background: url("../images/section-product-4.jpg");
+  background-size: cover;
+  padding-bottom: 50px; }
+
+/*# sourceMappingURL=main.css.map */
